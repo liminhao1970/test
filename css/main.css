@@ -1,0 +1,362 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*背景图片和背景颜色样式*/
+
+body {
+    background: #fff url('../img/bg.png');
+    color: #333;
+}
+/*logo样式*/
+
+.logo a {
+    display: block;
+    width: 340px;
+    height: 88px;
+    overflow: hidden;
+    margin: 30px auto;
+    background: url(../img/logo.png) no-repeat center 0;
+}
+
+.logo a:hover {
+    background-position: center -90px;
+}
+
+/*主页4个li样式*/
+
+#wuzhong {
+    width: 950px;
+}
+
+#wuzhong li {
+    background: rgba(0, 0, 0, 0) url('../img/card.png');
+    width: 207px;
+    float: left;
+    margin: 10px 10px 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 7px rgba(153, 153, 153, .2);
+    border-radius: 2px;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -o-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transition: all 0.5s;
+}
+
+#wuzhong li:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    border: 1px solid #bd1820;
+}
+/* 第一个li样式*/
+
+#zhu {
+    font-size: 12px;
+}
+
+#wuzhong #zhu .tit {
+    display: block;
+    text-align: center;
+    color: #999
+}
+
+#wuzhong #zhu .label {
+    color: #000;
+    background: url(../img/pig.png) no-repeat center bottom;
+    display: block;
+    height: 120px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.daxie {
+    font-size: 65px;
+    color: #ba1820;
+    float: left;
+    line-height: 62%;
+    margin: 12px 4px 0 0;
+}
+
+.jieshao {
+    color: #ba1820 !important;
+}
+
+.yin {
+    color: #ba1820;
+}
+/*  第二个li样式  */
+
+#hudie .tit {
+    display: block;
+    text-align: center;
+    color: #999
+}
+
+#hudie .label {
+    color: #000;
+    background: url(../img/hudie.png) no-repeat center bottom;
+    display: block;
+    height: 120px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.daxie {
+    font-size: 65px;
+    color: #ba1820;
+    float: left;
+    line-height: 62%;
+    margin: 12px 4px 0 0;
+}
+
+.jieshao {
+    color: #ba1820 !important;
+}
+/*   第三个li样式   */
+
+#hudie {
+    font-size: 12px;
+}
+
+#yu .tit {
+    display: block;
+    text-align: center;
+    color: #999
+}
+
+#yu #zhu a:hover {
+    color: #ba1820;
+}
+
+#yu .label {
+    color: #000;
+    background: url(../img/yu.png) no-repeat center bottom;
+    display: block;
+    height: 120px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#yu {
+    font-size: 12px;
+}
+
+.arch {
+    display: block;
+    color: #ba1820;
+    line-height: 24px;
+    padding-left: 10px;
+}
+/*    第四个li样式    */
+
+#zhizhu .tit {
+    display: block;
+    text-align: center;
+    color: #999
+}
+
+#zhizhu #zhu a:hover {
+    color: #ba1820;
+}
+
+#zhizhu .label {
+    color: #000;
+    background: url(../img/hudie.png) no-repeat center bottom;
+    display: block;
+    height: 120px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.daxie {
+    font-size: 65px;
+    color: #ba1820;
+    float: left;
+    line-height: 62%;
+    margin: 12px 4px 0 0;
+}
+
+.jieshao {
+    color: #ba1820 !important;
+}
+
+#zhizhu {
+    font-size: 12px;
+}
+/*中间logo样式*/
+
+.flogo a {
+    display: block;
+    width: 250px;
+    height: 20px;
+    overflow: hidden;
+    margin: 30px auto;
+    background: url(../img/ext-refs.png) no-repeat center 0;
+}
+
+.flogo a:hover {
+    background-position: center -20px;
+}
+/*详细物种介绍样式*/
+
+.xiangxi {
+    width: 946px;
+}
+
+.xiangxi li {
+    background: rgba(0, 0, 0, 0) url('../img/card.png');
+    width: 207px;
+    float: left;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 7px rgba(153, 153, 153, .2);
+    border-radius: 2px;
+    transition: all 0.5s;
+}
+
+.xiangxi li:hover {
+    border: 1px solid #ba1820;
+}
+/*  第一个li样式  */
+
+.kunchong a {
+    display: block;
+    background: url(../img/kunchong.png)no-repeat center bottom;
+    height: 150px;
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+}
+
+.kun {
+    display: block;
+    width: 207px;
+    height: 20px;
+    color: #ba1820;
+    font-size: 12px;
+}
+
+.kunchong a:hover {
+    color: #ba1820;
+}
+/*    第二个li样式    */
+
+.yu2 a {
+    display: block;
+    background: url(../img/yu2.png)no-repeat center bottom;
+    height: 150px;
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+}
+
+.yu2 {
+    color: #000;
+}
+
+.yu2 a:hover {
+    color: #ba1820;
+}
+/*    第三个li样式    */
+
+.zhiliao a {
+    display: block;
+    background: url(../img/zhiliao.png)no-repeat center bottom;
+    height: 150px;
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+}
+
+.zhi {
+    color: #000;
+}
+
+.zhiliao a:hover {
+    color: #ba1820;
+}
+
+/*  第四个li样式  */
+
+.xiyi a {
+    display: block;
+    background: url(../img/xiyi.png)no-repeat center bottom;
+    height: 150px;
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+}
+
+.xi {
+    color: #000;
+}
+
+.xiyi a:hover {
+    color: #ba1820;
+}
+/*底部版权样式*/
+
+.footer {
+    width: 300px;
+    height: 150px;
+    display: block;
+    background: url(../img/deranged.png)no-repeat center;
+}
+
+.banquan {
+    font-size: 10px;
+    color: #888;
+    width: 100%;
+    text-align: center;
+}
+
+.banquan a {
+    color: #beb2b2
+}
+
+@media screen and (min-width:950px) {
+    #wuzhong {
+        width: 950px;
+    }
+    .xiangxi {
+        width: 946px;
+    }
+}
+
+@media screen and (max-width:882px) and (min-width:461px) {
+    #wuzhong {
+        width: 466px
+    }
+    .xiangxi {
+        width: 466px
+    }
+}
+
+@media screen and (max-width:460px) {
+    .logo a {
+        width: 100%;
+    }
+
+    #wuzhong {
+        width: 217px;
+    }
+    .xiangxi {
+        width: 217px;
+    }
+}
